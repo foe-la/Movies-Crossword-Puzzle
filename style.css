@@ -1,0 +1,22 @@
+.wordframe {
+    /* position: absolute;
+    top: 50px;
+    display: flex;
+    background-color: blanchedalmond; */
+    width: 50px;
+    height: 50px;
+    border: 1px solid rosybrown;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: 8cap;
+    text-decoration-color: darkred;
+}
+p {
+    position: relative;
+    border-color: darkorange;
+    top: 500px;
+
+}

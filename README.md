@@ -67,4 +67,3 @@ You will present your project and show your code to classmates and instructors.
 Where to go for help during project week
 Seek out help online
 Seek out help with your classmates
-Seek out help with our class TA
