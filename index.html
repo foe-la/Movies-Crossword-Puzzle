@@ -10,41 +10,187 @@
 <body>
     <h1>HORROR MOVIE Crossword</h1>
     <p> "How to play:"</p>
-    <p id="info">Instructions...</p> 
-    <!-- // will go back and add at later time. -->
+    <p id="info"> How well do you know your Horror Films?
+        We'll see how well you do! Each box is worth one point, so go for the longest words to win!
+    </p> 
+    <div class = "playerz" </div>
+    <p class="required hide">Please provide the names of players(*)</p>
+    <form action="#" id="playerNames">
+      <label for="player-1-name">Player 1</label>
+      <input type="text" id="player-1-name" autocomplete="false" />
+      <label for="player-2-name">Player 2</label>
+      <input type="text" id="player-2-name" autocomplete="false" />
+      <button type="submit" class="btn btn-players-submit">
+        Press to Play!
+      </button>
+
+    <!-- <button type="button">Press to Start</button> -->
+    
     <div class = "wordframe">
-        <div id = 'cube1' class='row1' value="1"></div>
-        <div id = 'cube2' class='row2' value="2"></div>
-        <div id = 'cube3' class='row3' value="3"></div>
-        <div id = 'cube4' class='row4' value="4"></div>
-        <div id = 'cube5' class='row5' value="5"></div>
-        <div id = 'cube6' class='row6' value="6"></div>
-        <div id = 'cube7' class='row7' value="7"></div>
-        <div id = 'cube8' class='row8' value="8"></div>
-        <div id = 'cube9' class='row9' value="9"></div>
-        <div id = 'cube10' class='row10' value="10"></div>
-        <div id = 'cube11' class='row11' value="11"></div>
-        <div id = 'cube12' class='row12' value="12"></div>
-        <div id = 'cube13' class='row13' value="13"></div>
-        <div id = 'cube14' class='row14' value="14"></div>
-        <div id = 'cube15' class='row15' value="15"></div>
-        <div id = 'cube16' class='row16' value="16"></div>
-        <div id = 'cube17' class='row17' value="17"></div>
-        <div id = 'cube18' class='row18' value="18"></div>
-        <div id = 'cube19' class='row19' value="19"></div>
-        <div id = 'cube20' class='row20' value="20"></div>
-        <div id = 'cube21' class='row21' value="21"></div>
-        <div id = 'cube22' class='row22' value="22"></div>
-        <div id = 'cube23' class='row23' value="23"></div>
-        <div id = 'cube24' class='row24' value="24"></div>
-        <div id = 'cube25' class='row25' value="25"></div>
-        <div id = 'cube26' class='row26' value="26"></div>
-        <div id = 'cube27' class='row27' value="27"></div>
-        <div id = 'cube28' class='row28' value="28"></div>
-        <div id = 'cube29' class='row29' value="29"></div>
-        <div id = 'cube30' class='row30' value="30"></div>
-        <div id = 'cube31' class='row31' value="31"></div>
-        <div id = 'cube32' class='row32' value="32"></div>
+        <table>
+            <tr>
+              <td id="1"><input class="letter" type="text"></input></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td id="4"><input class="letter" type="text"></input></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td id="9"><input class="letter" type="text"></input></td>
+              <td class="blank"></td>
+              <td id="11"><input class="letter" type="text"></input></td>
+            </tr>
+
+            <tr>
+                <td id="1"><input class="letter" type="text"></input></td>
+                <td id="2"><input class="letter" type="text"></input></td>
+                <td id="3"><input class="letter" type="text"></input></td>
+                <td id="4"><input class="letter" type="text"></input></td>
+                <td class="blank"></td>
+                <td class="blank"></td>
+                <td class="blank"></td>
+                <td class="blank"></td>
+                <td id="9"><input class="letter" type="text"></input></td>
+                <td class="blank"></td>
+                <td id="11"><input class="letter" type="text"></input></td>
+              </tr>
+          
+            <tr>
+              <td ><input class="letter" type="text"></input></td>              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+            </tr>
+          
+            <tr>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+            </tr>
+          
+            <tr>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+            </tr>
+          
+            <tr>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+            </tr>
+          
+            <tr>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+            </tr>
+          
+            <tr>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+            </tr>
+          
+            <tr>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td ><input class="letter" type="text"></input></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+              <td class="blank"></td>
+            </tr>
+          
+          </table>
     </div>
+
+    <h2><strong>Down</strong></h2>
+    <ul>
+        <li>
+            1. "Jigsaw"
+            </li>
+            <li>
+            3. "the Warrens" (Ed and Lorraine)
+                </li>
+            <li>
+            5. "A Jordan Peele film, visiting girlfriends family"  
+            </li>
+            <li>
+            7. "A Jordan Peele film, extraterrestrials in the country"
+            </li>
+            <li>       
+            9. "Bees, a wrongful murder, the projects"
+        </li>
+    </ul>
+    <br>
+    <h2><strong>Across</strong></h2>
+    <ul>
+        <li>
+        2. "The Alphabet Killer"
+        </li>
+        <li>
+        4. "Wasssuupp, masked murderer"
+        </li>
+        <li>
+        6. "Dressed in all black like the _____" "antichrist, 1976"
+        </li>
+        <li>
+        8. "Hallucinations" "Psychiatrist" "Don't frown"
+        </li>
+            <li>
+        10. "A Jordan Peele film, dopplegangers"
+        </li>
+    </ul>
 </body>
 </html>

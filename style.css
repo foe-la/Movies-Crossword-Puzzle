@@ -1,22 +1,62 @@
-.wordframe {
-    /* position: absolute;
-    top: 50px;
-    display: flex;
-    background-color: blanchedalmond; */
-    width: 50px;
-    height: 50px;
-    border: 1px solid rosybrown;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://www.onlygfx.com/wp-content/uploads/2016/11/5-red-bloody-handprint.jpg);
 }
 h1 {
+    font-family: myFirstFont;
     position: relative;
     text-align: center;
-    text-decoration: wavy;
-    text-shadow: 8cap;
-    text-decoration-color: darkred;
 }
 p {
+    position: static;
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+}
+.wordframe {
+    position: static;
+    /* top: 70px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: blanchedalmond;
+    width: 442px;
+    height: 450px;
+    border: 1px solid rosybrown;
+}
+table {
+    align-content: center;
+    text-align: center;
+    padding:30px;
+    border:1px dashed #888;
+  }
+  
+  td {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .blank {
+    background: darkred; 
+  }
+  
+  .letter {
+    width: 30px;
+    height: 30px;
+    font-size:24px;
+    text-align:center;
+    border: 2px solid #222;
+  }
+h2 {
     position: relative;
-    border-color: darkorange;
-    top: 500px;
-
+    margin-left: 2%;
+   
+}
+ul {
+    margin-left: 5%;
+    padding: 2%;
 }
