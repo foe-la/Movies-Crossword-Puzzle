@@ -1,5 +1,10 @@
 # Background
+Crossword grids such as those appearing in most North American newspapers and magazines feature solid areas of white squares. Every letter is checked (i.e. is part of both an "across" word and a "down" word) and usually each answer must contain at least three letters. In such puzzles shaded squares are typically limited to about one-sixth of the total. Crossword grids elsewhere, such as in Britain, South Africa, India and Australia, have a lattice-like structure, with a higher percentage of shaded squares (around 25%), leaving about half the letters in an answer unchecked. For example, if the top row has an answer running all the way across, there will often be no across answers in the second row.
+
+Another tradition in puzzle design (in North America, India, and Britain particularly) is that the grid should have 180-degree rotational symmetry, so that its pattern appears the same if the paper is turned upside down. Most puzzle designs also require that all white cells be orthogonally contiguous (that is, connected in one mass through shared sides, to form a single polyomino).
+# How to play
 A crossword is a word puzzle that usually takes the form of a square or a rectangular grid of white- and black-shaded squares. The goal is to fill the white squares with letters, forming words or phrases that cross each other, by solving clues which lead to the answers. In languages that are written left-to-right, the answer words and phrases are placed in the grid from left to right ("across") and from top to bottom ("down"). The shaded squares are used to separate the words or phrases.
+
 # Movies-Crossword-Puzzle
 Mod 1: The DOM Based Game
 Project Details
@@ -69,3 +74,5 @@ You will present your project and show your code to classmates and instructors.
 Where to go for help during project week
 Seek out help online
 Seek out help with your classmates
+# References
+https://en.wikipedia.org/wiki/Crossword

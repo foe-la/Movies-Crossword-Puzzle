@@ -4,18 +4,21 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(https://www.onlygfx.com/wp-content/uploads/2016/11/5-red-bloody-handprint.jpg);
+    background-image: url(https://m.media-amazon.com/images/I/71mzZmzWgyL._AC_UF894,1000_QL80_.jpg);
+    background-size: contain;
 }
 h1 {
     font-family: fantasy;
     position: relative;
     text-align: center;
+    color: rgb(218, 7, 7);
 }
 p {
     position: static;
     text-align: center;
     background-color: transparent;
     padding: 0px;
+    color: azure;
 }
 .wordframe {
     position: relative;
@@ -25,9 +28,11 @@ p {
     margin: auto;
     margin-left: auto;
     background-color: blanchedalmond;
+    opacity: 0.5;
     width: 420px;
     height: 450px;
     border: 1px solid rosybrown;
+    box-shadow: 5%;
 }
 .playerz {
     /* align-content: center; */
@@ -35,6 +40,7 @@ p {
     padding: 5%;
     width: 30%;
     height: 20%;
+    color: azure;
   }
   
    
@@ -70,12 +76,14 @@ p {
   td {
     width: 30px;
     height: 30px;
+    opacity: 30;
   }
   
   .blank {
     background: darkred; 
     width: 30px;
     height: 30px;
+    opacity: 30;
   }
   
   .letter {
@@ -88,9 +96,21 @@ p {
 h2 {
     position: relative;
     margin-left: 2%;
+    color: rgb(240, 12, 12);
    
 }
 ul {
     margin-left: 5%;
     padding: 2%;
+    color: azure;
+}
+#checkAns {
+    position: relative;
+    margin-left: 50%;
+}
+#inputWord {
+    position: relative;
+    margin-left: 50%;
+    margin-top: 10px;
+    border-radius: 20%;
 }
