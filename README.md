@@ -1,3 +1,5 @@
+# Background
+A crossword is a word puzzle that usually takes the form of a square or a rectangular grid of white- and black-shaded squares. The goal is to fill the white squares with letters, forming words or phrases that cross each other, by solving clues which lead to the answers. In languages that are written left-to-right, the answer words and phrases are placed in the grid from left to right ("across") and from top to bottom ("down"). The shaded squares are used to separate the words or phrases.
 # Movies-Crossword-Puzzle
 Mod 1: The DOM Based Game
 Project Details
